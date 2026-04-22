@@ -53,10 +53,14 @@ Authorization: Bearer <JWT>
 ```json
 {
   "id": 1,
-  "firstName": "Name",
-  "lastName": "Lastname",
   "email": "user@example.com",
-  "phone": "+79991234567"
+  "fullName": "Name Lastname",
+  "phone": "+79991234567",
+  "city": "Moscow",
+  "timezone": "Europe/Moscow",
+  "about": "Люблю быструю доставку",
+  "createdAt": "2026-04-22T11:22:33.000Z",
+  "updatedAt": "2026-04-22T11:22:33.000Z"
 }
 ```
 
@@ -76,9 +80,11 @@ Authorization: Bearer <JWT>
 
 ```json
 {
-  "firstName": "Ira",
-  "lastName": "Savelova",
-  "phone": "+79991234567"
+  "fullName": "Ira Savelova",
+  "phone": "+79991234567",
+  "city": "Saint Petersburg",
+  "timezone": "Europe/Moscow",
+  "about": "Предпочитаю ПВЗ"
 }
 ```
 
@@ -87,10 +93,14 @@ Authorization: Bearer <JWT>
 ```json
 {
   "id": 1,
-  "firstName": "Ira",
-  "lastName": "Savelova",
   "email": "user@example.com",
-  "phone": "+79991234567"
+  "fullName": "Ira Savelova",
+  "phone": "+79991234567",
+  "city": "Saint Petersburg",
+  "timezone": "Europe/Moscow",
+  "about": "Предпочитаю ПВЗ",
+  "createdAt": "2026-04-22T11:22:33.000Z",
+  "updatedAt": "2026-04-22T11:25:00.000Z"
 }
 ```
 
