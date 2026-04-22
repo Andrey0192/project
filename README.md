@@ -100,8 +100,6 @@ Authorization: Bearer <JWT_TOKEN>
 
 ### 1. Поднять контейнеры
 
-> Docker-образы для `auth-service` и `user-service` собираются multi-stage Dockerfile'ом (Maven внутри контейнера), поэтому локально `mvn package` перед `docker compose up --build` запускать не нужно.
-
 Из корня репозитория:
 
 ```bash
